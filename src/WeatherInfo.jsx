@@ -11,7 +11,7 @@ module.exports=React.createClass({
         return <div className="row">
             <div className="col-md-12 weather-background">
                 <div className="panel panel-default weather-panel">
-                    <div className="panel-heading"><h3>Current weather of {this.props.weatherData.city.name}</h3></div>
+                    <div className="panel-heading"><h3>Current weather of {this.props.weatherData.city.name}(Live Weather Update)</h3></div>
                     <div className="row">
                         <div className="col-md-11 col-md-offset-1">
                            {list}

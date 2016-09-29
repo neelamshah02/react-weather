@@ -6,7 +6,7 @@ This application is built in React.js and with Live API data
 
 13 days weather upadte(every 3 hours data avaible) 
 
-####Familiar with Git?#####
+
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 

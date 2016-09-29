@@ -25,13 +25,11 @@ var Main=React.createClass({
         console.log(this.state.data)
         return <div>{this.renderData()}</div>
     },
-        renderData : function(){
+    renderData : function(){
             if(this.state.data && Object.keys(this.state.data).length){
                 return <div>
                     <WeatherInfo weatherData={this.state.data}/>
                 </div>
-
-
             }else {
                 return <h4>loading...</h4>
             }

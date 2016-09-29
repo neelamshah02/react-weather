@@ -4,10 +4,24 @@
 }
 .weather-txt{
   color:skyblue;
-  font-size:22px;
+  font-size:20px;
   padding: 5px;
 }
 .date{
   font-size:18px;
   padding: 5px;
+}
+.main-data-div{
+  border: 1px solid black;
+  text-align: center
+}
+.temp_max{
+  background-color :#f0ad4e;
+}
+.temp_min{
+  background-color : #999;
+}
+.temp{
+  font-size:18px;
+  color: aliceblue
 }

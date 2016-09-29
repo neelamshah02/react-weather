@@ -1,17 +1,13 @@
 var React= require('react');
-//var Button= require('./button');
+
 var List=require('./list');
 
 module.exports=React.createClass({
-
+  
    
-    getInitialState:function(){
-        return {open:false}
-    },
- 
     render:function(){
-       
-        var list=this.props.city.list.map(function(item){
+        console.log(this.props)
+        var list=this.props.list.map(function(item){
            
             return <List key={item.dt} data={item} 
                       

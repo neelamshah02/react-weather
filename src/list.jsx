@@ -2,8 +2,7 @@ var React = require('react');
 
 module.exports=React.createClass({
     render: function(){
-        console.log(this.props.data.main.img_src)
-    
+        
     return  <div className="col-md-2">
         <div className="date">{this.props.data.dt_txt}</div>
         <div className="weather-txt">{this.props.data.main.weather}</div>

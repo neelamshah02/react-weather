@@ -4,7 +4,7 @@ module.exports=React.createClass({
     render: function(){
         
     return  <div className="col-md-6 main-data-div">
-        Date : {this.props.data.dt_txt}
+        <div className="date"> Date : {this.props.data.dt_txt}</div>
         <div className="temp"><span className="temp_max">max:{this.tempConverter(this.props.data.main.temp_max)}°C</span>
             <span className="temp_min">min:{this.tempConverter(this.props.data.main.temp_min)}°C</span></div>
         <div className="weather-txt">{this.props.data.weather[0].description}</div>
